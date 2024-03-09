@@ -1,21 +1,21 @@
 
 import {
   BrowserRouter as Router,
-  routes,
+  Routes,
   Route,
 }from 'react-router-dom';
 
-import Home from './pages/pages/Home';
+import Home from './pages/pages/home';
 import POS from './pages/pages/POS';
-import Analytics from './pages/pages/Analytics';
+import Analytics from './pages/pages/analytics';
 function App() {
   return (
     <Router>
-      <routes>
+      <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/POS" element={<POS/>} />
         <Route path="/Analytics" element={<Analytics/>} />
-      </routes>
+      </Routes>
     </Router>
   );
 }
