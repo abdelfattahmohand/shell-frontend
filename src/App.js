@@ -10,13 +10,9 @@ import POS from './pages/pages/POS';
 import Analytics from './pages/pages/analytics';
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/POS" element={<POS/>} />
-        <Route path="/Analytics" element={<Analytics/>} />
-      </Routes>
-    </Router>
+    <div className='App'>
+      Hello World
+    </div>
   );
 }
 
